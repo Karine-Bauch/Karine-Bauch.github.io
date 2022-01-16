@@ -115,7 +115,6 @@ body {
 
 .qui__subtitle {
   font-weight: 700;
-  font-style: italic;
   margin-bottom: 10px;
 }
 
@@ -143,7 +142,6 @@ body {
 
 .pro__title, .training__title {
   font-weight: 700;
-  font-style: italic;
 }
 
 .pro__title--company, .training__title--school {
@@ -153,7 +151,6 @@ body {
 }
 
 .pro__date, .training__date {
-  font-style: italic;
   margin: 10px 0;
 }
 
@@ -180,6 +177,10 @@ body {
   align-items: center;
   font-size: 0.9rem;
   margin: 0 10px;
+}
+
+.CV-pdf {
+  margin-top: 35px;
 }
 
 .contact__social {
@@ -216,6 +217,12 @@ body {
 .bold {
   font-weight: 700;
 }
+
+.italic {
+  font-style: italic;
+}
+
+
 
 /* -------------- MEDIA QUERIES ------------------ */
 
