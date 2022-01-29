@@ -4,7 +4,8 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #494949
+  color: #494949;
+  box-sizing: border-box;
 }
 
 .main-container {
@@ -15,16 +16,45 @@ body {
   margin-right: auto;
 }
 
-.intro__title, .menu, .container-qui__title, .container-training__title, .container-pro__title, .container-contact__title {
+.intro__title, .menu, .container-qui__title, .container-training__title, .container-pro__title, .container-contact__title, .container-mode {
   font-family: 'Permanent Marker', cursive;
 }
 
 .container {
   padding: 25px;
+  font-size: 1rem;
 }
 
 .container-intro, .container-pro, .container-contact {
   background-color: #e6e6e6;
+}
+
+.container-mode {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.switch {
+  width: 60px;
+  height: 15px;
+  background-color:#494949;
+  border-radius: 20px;
+  position: relative;
+  border: 1px solid #494949;
+  padding: 1rem;
+  margin-top: 5px;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 1px;
+  left: 1px;
 }
 
 .intro__title {
@@ -107,7 +137,7 @@ body {
 }
 
 .qui__details {
-  padding: 20px;
+  padding: 0px 20px;
   line-height: 1.1rem;
   text-align: justify;
   border-left: 5px dotted #cccccc;
@@ -115,7 +145,8 @@ body {
 
 .qui__subtitle {
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .qui__desc {
