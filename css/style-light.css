@@ -328,6 +328,13 @@ body {
 /* Mobiles */
 @media (max-width: 480px) {
 
+  .container-mode {
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto 15px auto;
+    font-size: 1.1rem;
+  }  
+
   .menu__list {
     flex-direction: column;
     justify-content: center;
