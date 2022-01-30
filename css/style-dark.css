@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #494949;
+  color: #e6e6e6;
   box-sizing: border-box;
   background-color: #1a1a1a;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 .container-intro, .container-pro, .container-contact {
-  background-color: #cccccc;
+  background-color: #5a5a5a;
 }
 
 .container-qui, .container-training {
@@ -44,10 +44,10 @@ body {
 .switch {
   width: 60px;
   height: 15px;
-  background-color:#494949;
+  background-color:#e6e6e6;
   border-radius: 20px;
   position: relative;
-  border: 1px solid #494949;
+  border: 1px solid #e6e6e6;
   padding: 1rem;
   margin-top: 5px;
 }
@@ -56,10 +56,14 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: #e6e6e6;
+  background-color: #494949;
   position: absolute;
   bottom: 1px;
   right: 1px;
+}
+
+.btn:onclick {
+  transition:  0.5s;
 }
 
 .intro__title {
@@ -235,7 +239,7 @@ body {
 
 .container-footer {
   height: 80px;
-  background-color: #cccccc;
+  background-color: #5a5a5a;
   display: flex;
   justify-content: center;
   align-items: center;

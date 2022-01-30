@@ -15,4 +15,4 @@ lightDarkMode = () => {
     }
 }
 
-switchEl.addEventListener('click', lightDarkMode);
+switchEl.addEventListener('click', lightDarkMode)
