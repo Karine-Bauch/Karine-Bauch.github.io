@@ -253,6 +253,10 @@ body {
   font-style: italic;
 }
 
+.list {
+  margin-bottom : 8px;
+}
+
 
 
 /* -------------- MEDIA QUERIES ------------------ */
